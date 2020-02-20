@@ -114,9 +114,9 @@ ul {
 }
 li {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 px2rem(20);
 }
 a {
-  color: #42b983;
+  color: $primary-color;
 }
 </style>

@@ -10,3 +10,5 @@ new Vue({
   store,
   render: h => h(App)
 }).$mount("#app");
+
+console.log(`App v${process.env.VUE_APP_VERSION} is running`)
