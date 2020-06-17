@@ -75,7 +75,7 @@ export default {
     },
     meterColor: {
       type: String,
-      default: "#e6e6e6"
+      default: '#e6e6e6'
     },
     progress: {
       type: Number,
@@ -84,7 +84,7 @@ export default {
     },
     valueColor: {
       type: [String, Object],
-      default: "#f77a52"
+      default: '#f77a52'
     },
     size: {
       type: Number,
@@ -147,7 +147,7 @@ export default {
     },
     _isLiner() {
       return (
-        Object.prototype.toString.call(this.valueColor) == "[object Object]"
+        Object.prototype.toString.call(this.valueColor) == '[object Object]'
       );
     }
   },
